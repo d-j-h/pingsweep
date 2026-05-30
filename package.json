@@ -1,0 +1,26 @@
+{
+  "name": "pingsweep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "wrangler pages deploy public --project-name pingsweep",
+    "deploy:dev": "npm run deploy -- --branch dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d-j-h/pingsweep.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/d-j-h/pingsweep/issues"
+  },
+  "homepage": "https://github.com/d-j-h/pingsweep#readme",
+  "devDependencies": {
+    "wrangler": "^4.95.0"
+  }
+}
